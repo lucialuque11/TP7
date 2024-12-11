@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registro de Usuarios</title>
+</head>
+<body>
+    <h1>Registro de usuarios</h1>
+    <button id="toggleButton" class="boton" onclick = "crearPersona()">REGISTRARSE</button>
+    <div id="pantalla" style="display: none;">
+        <form style="color: #f2eefa; font-family:Verdana, Geneva, Tahoma, sans-serif;">
+            <label for="nombre" class="texto"> Nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+            <label for="apellido" class="texto"> Apellido:</label>
+            <input type="text" id="apellido" name="apellido">
+            <label for="dni" class="texto"> dni:</label>
+            <input type="number" id="dni" name="dni">
+            <label for="telefono" class="texto"> Teléfono:</label>
+            <input type="number" id="telefono" name="telefono">
+            <label for="correo" class="texto"> Correo electrónico:</label>
+            <input type="text" id="correo" name="correo">
+            <label for="saldo" class="texto"> Saldo:</label>
+            <input type="number" id="saldo" name="saldo">
+        </form>
+    </div>
+    <div class="pantalla2">
+        <div class="contenedor">
+            <h3> Nombre: <span id="nombree"></span></h3>
+            <h3> Apellido: <span id="apellidoo"></span></h3>
+            <h3> dni: <span id="dnii"></span></h3>
+            <h3> Teléfono: <span id="telefonoo"></span></h3>
+            <h3> Correo Electrónico: <span id="correoo"></span></h3>
+            <h3> Saldo: <span id="saldoo"></span></h3>
+        </div>
+        <div class="botones">
+            <button onclick = "anteriorPersona()">Anterior persona</button>
+            <button onclick = "siguientePersona()">Siguiente persona</button>
+        </div>
+    </div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
