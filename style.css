@@ -1,0 +1,95 @@
+body{
+    background-color: rgb(43, 20, 90);
+    align-content: center;
+    display: inline-flexbox;
+}
+
+.boton{
+    margin-left: 38%; 
+    margin-bottom: -4%;}
+
+#pantalla{
+    margin-top: 5%;
+    margin-left: 37%;
+}
+
+.pantalla2{
+    margin-top: 5%;
+    margin-left: -0.2%;  
+}
+
+.boton{
+    width: 30%; 
+    margin-left: 35%; 
+    margin-top: 5%;
+}
+
+
+.botones{
+    display: flex;
+    width: 50%;
+    margin-left: 24%;
+}
+.contenedor {
+    max-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 11.1%;
+    padding: 20px;
+    background-color: rgb(135, 112, 177);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(19, 11, 32, 0.1);
+}
+.texto{
+    font-size: 100%;
+    margin-top: 2%;
+}
+
+h1{
+    margin-left: 33%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #f2eefa;
+}
+h3{
+    margin-bottom: 7%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fbe8ff;
+}
+.inicio{
+    margin-block: 15%;
+}
+.inicioo{
+    width: 150px;
+    margin-left: 35%;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input {
+    width: 40%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    width: 95%;
+    padding: 10px;
+    margin-left: 4%;
+    margin-bottom: 5px;
+    background-color: #563c91;
+    color: pink;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #7f5ab9;
+}
+
+.output {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+}
